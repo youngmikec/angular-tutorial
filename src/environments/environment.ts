@@ -5,6 +5,7 @@
 export const environment = {
   production: false,
   BASE_URL: 'http://api.weatherapi.com/v1/sports.json',
+  CURRENT_URL: 'https://api.pmt.ng/api',
   API_KEY: '3f4c2ebe68aa4031a3090124220607'
 };
 

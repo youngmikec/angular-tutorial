@@ -16,4 +16,11 @@ export class ApiService {
         )
         return response;
     }
+
+    postApi(url: string, payload: any): Observable<any> {
+        const response = this.http.post(url, payload).pipe(
+            map((res: any) => res)
+        );
+        return response;
+    }
 }

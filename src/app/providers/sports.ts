@@ -20,4 +20,10 @@ export class Sports {
             map((res: any) => res)
         )
     }
+
+    createSport(payload: any){
+        return this.apiService.postApi(this.url, payload).pipe(
+            map((res: any) => res)
+        )
+    }
 }
